@@ -5,4 +5,4 @@ Verlet Integration for Rope Simulation in Unity using C#
 
 
 
-![Rope Simulation](https://raw.githubusercontent.com/0Jamzey0/Rope-Simulation/main/image.png)
+![Rope Simulation](https://github.com/0Jamzey0/Rope-Simulation/image.png)
