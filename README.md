@@ -8,7 +8,7 @@ Rope supports adding End anchor point and if left null , it would be ignored.
 
 # Upcoming Updates 
 * Support the attachment of objects or Rigidbodies along any or point on the rope other than the start or end.
-* Imporved quality mesh deformation
+* Imporved quality of mesh deformation
 * More Performance optimizations 
 
 
