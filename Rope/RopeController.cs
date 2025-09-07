@@ -32,7 +32,8 @@ public class RopeController : MonoBehaviour
     [Min(0.001f)] public float segmentLength = 0.2f;
     public Vector3 gravity = new Vector3(0, -9.81f, 0);
 
-    [Min(1)] public int solverIterations = 4;
+    [Range(1,100)] public int solverIterations = 4;
+    [Tooltip("Increase the Substeps to increase performance, The Substeps that occur within one single iteration are divided over the Deltatime")]
     [Range(1, 8)] public int substeps = 1;
 
     [Header("Anchors")]
