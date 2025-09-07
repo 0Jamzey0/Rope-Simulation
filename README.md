@@ -7,9 +7,18 @@ Note that The **iterations** Parameter is crucial in terms of performance . High
 Rope supports adding End anchor point and if left null , it would be ignored.
 
 # Upcoming Updates 
-* Support the attachment of objects or Rigidbodies along any or point on the rope other than the start or end.
-* Imporved quality of mesh deformation
-* More Performance optimizations 
+* Support the attachment of objects or Rigidbodies along any or point on the rope other than the start or end. ✔
+* Imporved quality of mesh deformation ✔
+* More Performance optimizations ✔
+
+# Updated Version (Legacy no longer supported)
+* Added Tearing Constraints
+* Added Performance Levels
+* Improved Collision detection and handling for more accurate collisions
+* Fixed the 3D mesh having a fliped out faces making the mesh look hollow
+* Supported adding n-1 rigidbodies elements to the rope (where n = rope points)
+* Auto assign Start transform to the Current object's transform in case left unassigned
+* Fixed a bug where changing the rope parameters during runtime would cause the rope physics to break
 
 
 
